@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="8px" viewBox="0 0 30 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>more</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Главная" transform="translate(-266.000000, -453.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Первый-экран-серый">
+                <g id="Слайдер">
+                    <g id="Кнопка" transform="translate(236.000000, 432.000000)">
+                        <g id="more" transform="translate(30.000000, 21.000000)">
+                            <path d="M4,0 C1.7945,0 0,1.7945 0,4 C0,6.2055 1.7945,8 4,8 C6.2055,8 8,6.2055 8,4 C8,1.7945 6.2055,0 4,0 Z M4,7 C2.3455,7 1,5.6545 1,4 C1,2.3455 2.3455,1 4,1 C5.6545,1 7,2.3455 7,4 C7,5.6545 5.6545,7 4,7 Z" id="Shape"></path>
+                            <path d="M26,0 C23.7945,0 22,1.7945 22,4 C22,6.2055 23.7945,8 26,8 C28.2055,8 30,6.2055 30,4 C30,1.7945 28.2055,0 26,0 Z M26,7 C24.3455,7 23,5.6545 23,4 C23,2.3455 24.3455,1 26,1 C27.6545,1 29,2.3455 29,4 C29,5.6545 27.6545,7 26,7 Z" id="Shape"></path>
+                            <path d="M15,0 C12.7945,0 11,1.7945 11,4 C11,6.2055 12.7945,8 15,8 C17.2055,8 19,6.2055 19,4 C19,1.7945 17.2055,0 15,0 Z M15,7 C13.3455,7 12,5.6545 12,4 C12,2.3455 13.3455,1 15,1 C16.6545,1 18,2.3455 18,4 C18,5.6545 16.6545,7 15,7 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

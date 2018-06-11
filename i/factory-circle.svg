@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="143px" height="127px" viewBox="0 0 143 127" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>industrial</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-14.3%" y="-10.2%" width="128.7%" height="128.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Главная" transform="translate(-874.000000, -1070.000000)" fill-rule="nonzero">
+            <g id="О-компании" transform="translate(0.000000, 720.000000)">
+                <g id="Цифры" transform="translate(859.000000, 60.000000)">
+                    <g id="Иконка" transform="translate(6.000000, 256.000000)">
+                        <g id="Group-6">
+                            <g id="industrial" filter="url(#filter-1)" transform="translate(19.614213, 39.228426)">
+                                <polygon id="Shape" fill="#CFDCE5" points="111.964467 68.6497462 84.177665 68.6497462 84.5262767 62.6283296 86.8716138 22.0659898 109.270518 22.0659898 111.615855 62.6283296"></polygon>
+                                <polygon id="Shape" fill="#BAC6CC" points="86.711881 22.0659898 93.1675127 22.0659898 92.184227 68.6497462 84.177665 68.6497462"></polygon>
+                                <polygon id="Shape" fill="#FF6F52" points="111.147208 40.0456853 86.6294416 40.0456853 87.1776293 31.0558376 110.59902 31.0558376"></polygon>
+                                <polygon id="Shape" fill="#E25749" points="94.8020305 31.0558376 94.5767927 40.0456853 86.6294416 40.0456853 87.2094922 31.0558376"></polygon>
+                                <polygon id="Shape" fill="#CFDCE5" points="0 68.499345 34.3216955 46.5837563 34.3216955 68.499345 68.6436303 46.5837563 68.6436303 68.499345 121.771574 68.499345 121.771574 122.588832 0 122.588832"></polygon>
+                                <polygon id="Shape" fill="#BAC6CC" points="111.964467 69.4670051 84.177665 69.4670051 84.5262767 62.928934 111.615855 62.928934"></polygon>
+                                <g id="Group" transform="translate(9.807107, 80.091371)" fill="#4EBFED">
+                                    <rect id="Rectangle-path" x="0.212235099" y="0.0538599967" width="34.8951476" height="14.4480034"></rect>
+                                    <rect id="Rectangle-path" x="45.9549011" y="0.0538599967" width="34.8951476" height="14.4480034"></rect>
+                                </g>
+                                <g id="Group" transform="translate(8.172589, 79.274112)" fill="#BAC6CC">
+                                    <path d="M0.081051066,17.8984272 L38.188761,17.8984272 L38.188761,0.161817259 L0.081051066,0.161817259 L0.081051066,17.8984272 Z M14.0961513,14.7589327 L14.0961513,3.30107208 L24.1739013,3.30107208 L24.1739013,14.7589327 L14.0961513,14.7589327 Z M35.0390733,14.7589327 L27.323108,14.7589327 L27.323108,3.30107208 L35.0390733,3.30107208 L35.0390733,14.7589327 Z M3.23049827,3.30107208 L10.9464636,3.30107208 L10.9464636,14.7589327 L3.23049827,14.7589327 L3.23049827,3.30107208 Z" id="Shape"></path>
+                                    <path d="M45.9042453,0.161817259 L45.9042453,17.8984272 L84.0119552,17.8984272 L84.0119552,0.161817259 L45.9042453,0.161817259 Z M69.996855,3.30107208 L69.996855,14.7589327 L59.919105,14.7589327 L59.919105,3.30107208 L69.996855,3.30107208 Z M49.053933,3.30107208 L56.7698983,3.30107208 L56.7698983,14.7589327 L49.053933,14.7589327 L49.053933,3.30107208 Z M80.862508,14.7589327 L73.1465427,14.7589327 L73.1465427,3.30107208 L80.862508,3.30107208 L80.862508,14.7589327 Z" id="Shape"></path>
+                                </g>
+                                <path d="M99.7901404,0 L22.3941132,0 C18.3787817,0 15.1235787,3.27863336 15.1235787,7.32286647 C15.1235787,8.5370504 15.4187464,9.6814813 15.9379168,10.6892924 L8.08779333,10.6892924 C4.07246187,10.6892924 0.817258883,13.9679258 0.817258883,18.0121589 C0.817258883,22.056392 4.07246187,25.3350254 8.08779333,25.3350254 L37.1699311,25.3350254 C41.1852626,25.3350254 44.4404656,22.056392 44.4404656,18.0121589 C44.4404656,16.797975 44.1452979,15.6535441 43.6261275,14.6457329 L99.7903793,14.6457329 C103.805711,14.6457329 107.060914,11.3670996 107.060914,7.32286647 C107.060675,3.27863336 103.805472,0 99.7901404,0 Z" id="Shape" fill="#415E72"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
