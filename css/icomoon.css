@@ -16,10 +16,12 @@
 .icon-facebook:before {
   content: "\e900";
   color: #a92423;
+  font-size: 18px;
 }
 .icon-instagram:before {
   content: "\e901";
   color: #71706e;
+  font-size: 18px;
 }
 .icon-mail:before {
   content: "\e902";
@@ -48,6 +50,7 @@
 .icon-ok:before {
   content: "\e905";
   color: #71706e;
+  font-size: 18px;
 }
 .icon-phone:before {
   content: "\e906";
@@ -58,8 +61,13 @@
 .icon-quote:before {
   content: "\e907";
   color: #a92423;
+  font-size: 42px;
+  position: absolute;
+  left: -24px;
+  top: 20px;
 }
 .icon-vk:before {
   content: "\e908";
   color: #71706e;
+  font-size: 18px;
 }
