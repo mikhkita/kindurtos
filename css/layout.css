@@ -186,8 +186,7 @@ body {
 				    background-position: 50% 50%;
 				    background-repeat: no-repeat;
 				    background-image: url(../i/logo.svg);
-				    background-size: 72px; 
-				    top: 32px;
+				    background-size: cover; 
 				}
 				.b-logo-text{
 					font-family: Geometria-Bold;
@@ -223,12 +222,13 @@ body {
 				 		background-color: #A92423;
 				 		width: 100%;
 				 		content: ' ';
-				 		top: 26px;
+				 		bottom: -6px;
 				 		left: 0px;
 				 		-webkit-transition: all 0.2s;
 						-moz-transition: all 0.2s;
 						-o-transition: all 0.2s;
 						transition: all 0.2s;
+						pointer-events: none;
 
 				 	}
 				 	.b-h-menu li a:hover:after{
@@ -238,9 +238,16 @@ body {
 				 		background-color: #A92423;
 				 		width: 100%;
 				 		content: ' ';
-				 		top: 22px;
+				 		bottom: -2px;
 				 		left: 0px;
+				 		pointer-events: auto;
 				 	}
+				 		 li.icon-mail a{
+				 		 	text-decoration: underline;
+				 		 }
+				 		 	li.icon-mail a:hover{
+				 		 		text-decoration: none;
+				 		 	}
 		.b-main-header-h1 {
 			margin-top: 122px;
 			font-family: Geometria-Bold;
@@ -266,7 +273,21 @@ body {
 			-moz-box-shadow: 0px 5px 12px rgba(92, 26, 26, 0.3);
 	  		-webkit-box-shadow: 0px 5px 12px rgba(92, 26, 26, 0.3);
 	  		box-shadow: 0px 5px 12px rgba(92, 26, 26, 0.3);
+	  		-webkit-transition: all 0.2s;
+			-moz-transition: all 0.2s;
+			-o-transition: all 0.2s;
+			transition: all 0.2s;
 		}
+			.b-red-button:hover{
+				background-color: #8D1B1A;
+			}
+			.b-red-button:active{
+				background-color: #8D1B1A;
+				top: 3px;
+				-moz-box-shadow: 0px 3px 10px rgba(92, 26, 26, 0.3);
+	  			-webkit-box-shadow: 0px 3px 10px rgba(92, 26, 26, 0.3);
+	  			box-shadow: 0px 3px 10px rgba(92, 26, 26, 0.3);
+			}
 			.b-red-button:before {
 				position: absolute;
 				left: 30px;
@@ -378,6 +399,7 @@ body {
 				display: inline-block;
 				text-align: center;
 				margin-bottom: 53px;
+				vertical-align: top;
 
 			}
 			.b-advantage:nth-child(3){
@@ -422,12 +444,12 @@ body {
 					.b-right p b{
 						font-family: ProximaNova-Bold;
 					}
-					.b-right p a{
+					.b-advantage:last-child p{
 						text-decoration: underline;
 						color: #434343;
 					}
-						.b-right p a:hover{
-							text-decoration: none;
+						.b-advantage:last-child p:hover{
+							text-decoration: none;	
 						}
 .b-main-reviews{
 	background-image: url(../i/bg-2.jpg);
@@ -559,7 +581,7 @@ body {
 					.b-social li{
 						display: inline-block;
 						text-align: left;
-						margin-right: 35px;
+						margin-right: 32px;
 						display: inline-block;
 						-webkit-filter: grayscale(100%);
 					    -moz-filter: grayscale(100%);
@@ -609,8 +631,8 @@ body {
 								background-color: #71706E;
 								width: 100%;
 								content: ' ';
-								top: 18px;
 								left: 0px;
+								bottom: 0px;
 								transform: scaleY(0.5);
 							}
 							.shortcuts li a:hover:after{
@@ -619,7 +641,7 @@ body {
 			.b-contacts-wrap{
 				display: inline-block;
 				border: 15px solid #ffffff;
-				padding: 30px 73px 28px 36px;
+				padding: 33px 73px 33px 36px;
 				text-align: right;
 				vertical-align: top;
 			}
@@ -638,7 +660,25 @@ body {
 					}
 					.b-contacts p:last-child {
 						margin-bottom: 0px;
+
 					}
+						.b-contacts p a{
+							color: #71706E;
+							position: relative;
+						}
+							.b-contacts p a:after{
+								position: absolute;
+								height: 1px;
+								background-color: #71706E;
+								width: 100%;
+								content: ' ';
+								left: 0px;
+								bottom: 0px;
+								transform: scaleY(0.5);
+							}
+								.b-contacts p a:hover:after{
+									display: none;
+								}
 					.b-contacts p b{
 						font-family: ProximaNova-Bold;
 					}
@@ -756,7 +796,7 @@ input.error,textarea.error{
 }
 .b-block{
 	position: relative;
-	width: 1130px;
+	max-width: 1130px;
 	margin: 0px auto;
 	padding-top: 60px;
 	padding-top: 60px;
