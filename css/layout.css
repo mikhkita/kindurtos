@@ -205,15 +205,41 @@ body {
 			}
 			 	.b-h-menu{
 			 		margin-top: 48px;
-
+			 		text-align: justify;
+    				width: calc(100% - 150px);
 			 	}
 				 	.b-h-menu li{
-				 		float: left;
-				 		padding-left: 44px;
+				 		display: inline-block;	
+				 		position: relative;
 				 	}
 				 	.b-h-menu li a:hover{
 				 		color: #A92423 !important;
-				 		border-bottom: 2px solid #A92423;
+				 		
+				 	}
+				 	.b-h-menu li a:after{
+				 		opacity: 0;
+				 		position: absolute;
+				 		height: 2px;
+				 		background-color: #A92423;
+				 		width: 100%;
+				 		content: ' ';
+				 		top: 26px;
+				 		left: 0px;
+				 		-webkit-transition: all 0.2s;
+						-moz-transition: all 0.2s;
+						-o-transition: all 0.2s;
+						transition: all 0.2s;
+
+				 	}
+				 	.b-h-menu li a:hover:after{
+				 		opacity: 1;
+				 		position: absolute;
+				 		height: 2px;
+				 		background-color: #A92423;
+				 		width: 100%;
+				 		content: ' ';
+				 		top: 22px;
+				 		left: 0px;
 				 	}
 		.b-main-header-h1 {
 			margin-top: 122px;
@@ -244,7 +270,7 @@ body {
 			.b-red-button:before {
 				position: absolute;
 				left: 30px;
-				top: 21px;
+				top: calc(50% - 5px);
 				line-height: 0px;
 				content:url('../i/more.svg');
 			}
@@ -473,10 +499,10 @@ body {
 		border: 15px solid #f6f6f6;
 		padding: 45px 71px 40px 66px;
 		margin-bottom: 50px;
+		text-align: justify;
 	}
 		.b-partner-logo{
 		    display: inline-block;
-			margin-right: 24px;
 			max-width: 200px;
 			-webkit-filter: grayscale(100%);
 		    -moz-filter: grayscale(100%);
@@ -492,7 +518,6 @@ body {
 		}
 			.b-partner-logo:hover{
 		    display: inline-block;
-			margin-right: 24px;
 			-webkit-filter: grayscale(0%);
 		    -moz-filter: grayscale(0%);
 		    -ms-filter: grayscale(0%);
@@ -569,16 +594,27 @@ body {
 				}
 					.shortcuts li{
 						margin-bottom: 8px;
+						position: relative;
 					}
 						.shortcuts li a{
 						font-family: ProximaNova-Regular;
 						font-size: 16px;
 						line-height: 24px;
 						color: #71706E;
-						border-bottom: 1px solid #71706E;
+						position: relative;
 						}
-							.shortcuts li a:hover{
-								
+							.shortcuts li a:after{
+								position: absolute;
+								height: 1px;
+								background-color: #71706E;
+								width: 100%;
+								content: ' ';
+								top: 18px;
+								left: 0px;
+								transform: scaleY(0.5);
+							}
+							.shortcuts li a:hover:after{
+								display: none;
 							}
 			.b-contacts-wrap{
 				display: inline-block;
