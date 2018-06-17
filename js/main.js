@@ -1,4 +1,7 @@
-$(document).ready(function(){	
+$(document).ready(function(){
+var isDesktop = false,
+isTablet = false,
+isMobile = false;	
     function resize(){
        if( typeof( window.innerWidth ) == 'number' ) {
             myWidth = window.innerWidth;
@@ -11,10 +14,31 @@ $(document).ready(function(){
             myWidth = document.body.clientWidth;
             myHeight = document.body.clientHeight;
         }
+        if( myWidth > 1179 ){
+            isDesktop = true;
+            isTablet = false;
+            isMobile = false;
+        }else if( myWidth > 767 && myWidth < 1180 ){
+            isDesktop = false;
+            isTablet = true;
+            isMobile = false;
+        }else{
+            isDesktop = false;
+            isTablet = false;
+            isMobile = true;
+        }
     }
     $(window).resize(resize);
     resize();
-
+    $(window).resize(function() {
+        if (!isMobile) {
+            $('.b-right').slick('unslick');
+        }
+        else{
+            bRightSlick();
+        }
+    });
+    partnersSlick();
     $.fn.placeholder = function() {
         if(typeof document.createElement("input").placeholder == 'undefined') {
             $('[placeholder]').focus(function() {
@@ -40,7 +64,84 @@ $(document).ready(function(){
         }
     }
     $.fn.placeholder();
-    
+var slideout = new Slideout({
+      'panel': document.getElementById('panel'),
+      'menu': document.getElementById('menu'),
+      'padding': 300,
+      'tolerance': 70,
+      'side': 'right',
+      'touch': false
+    }); 
+$('#menu').css('opacity','1');
+    function close(eve) {
+    eve.preventDefault();
+    slideout.close();
+    }
+    slideout
+        .on('beforeopen', function() {
+          $(" #panel ").addClass("panel-open");
+        })
+        .on('open', function() {
+           this.panel.addEventListener('click', close);
+        })
+        .on('beforeclose', function() {
+          $(" #panel ").removeClass("panel-open");
+          this.panel.removeEventListener('click', close);
+        });
+    slideout.once('open', slideout._initTouchEvents);
+    slideout.on('open', slideout.enableTouch);
+    slideout.on('close', slideout.disableTouch);
+    document.querySelector('.toggle-button').addEventListener('click', function() {
+    slideout.toggle();
+    });
+    function bRightSlick() {
+        $( " .b-right " ).slick({
+            infinite: true,
+            speed: 500,
+            slidesToScroll: 1,
+            touchThreshold: 100,
+            arrows: true,
+            dots: true
+        });  
+    }
+    function partnersSlick() {
+        $( " .b-partners " ).slick({
+            infinite: true,
+            speed: 500,
+            slidesToScroll: 1,
+            slidesToShow: 4,
+            touchThreshold: 100,
+            arrows: true,
+            dots: true,
+            responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+             dots: true,
+            slidesToShow: 3
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+             dots: true,
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+             dots: false,
+            slidesToShow: 1
+          }
+        }
+      ]
+        });
+
+    }
+    if (isMobile) {
+        bRightSlick();
+    }
 	// var myPlace = new google.maps.LatLng(55.754407, 37.625151);
  //    var myOptions = {
  //        zoom: 16,

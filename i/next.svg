@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Кнопка</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Главная-375" transform="translate(-324.000000, -2223.000000)">
+            <g id="Наши-клиенты" transform="translate(11.000000, 2083.000000)">
+                <g id="Кнопка" transform="translate(313.000000, 140.000000)">
+                    <rect id="Rectangle-12" fill="#A92423" x="0" y="0" width="40" height="40" rx="20"></rect>
+                    <g id="right-arrow" transform="translate(16.800000, 12.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                        <path d="M1.01196581,15.7675214 C0.902564103,15.8769231 0.765811966,15.9316239 0.615384615,15.9316239 C0.464957265,15.9316239 0.328205128,15.8769231 0.218803419,15.7675214 C-2.22044605e-16,15.5487179 -2.22044605e-16,15.1931624 0.218803419,14.974359 L7.19316239,8 L0.218803419,1.02564103 C-1.19348975e-15,0.806837607 -1.19348975e-15,0.451282051 0.218803419,0.232478632 C0.437606838,0.0136752137 0.793162393,0.0136752137 1.01196581,0.232478632 L8.38290598,7.6034188 C8.6017094,7.82222222 8.6017094,8.17777778 8.38290598,8.3965812 L1.01196581,15.7675214 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

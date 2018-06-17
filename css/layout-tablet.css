@@ -1,16 +1,114 @@
 @charset "utf-8";
-.b-h-menu {
-	width: 95%;
-	font-size: 16px;
+.b-main-header .b-block{
+	height: 100vh;
+}
+.b-h-menu{
+	display: none;
+}
+.b-top-menu{
+	margin-top: 22px;
+    margin-right: 17px;
+	width: calc(100% - 351px);
+}
+	.b-top-menu .icon-mobile{
+		display: inline-block;
+	}
+.b-top-menu p a{
+	color:#434343;
+}
+.burger-menu{
+	display: block;
+	float: right;
 }
 .b-main-header-h1{
-	font-size: 38px;
+	font-size: 45px;
+	line-height: 52px;
 }
-.bottom-links ul li {
-	margin-left: 0px;
+.bottom-links{
+	display: none;
 }
-
-
+.toggle-button {
+	display: inline-block !important;
+	background-image: url(../i/menu.svg);
+	background-color: rgba(0, 0, 0, 0);
+	height: 40px;
+	width: 40px;
+	float: right;
+    border: none;
+    margin-top: 15px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.menu-header{
+	display: block;
+    color: #1b1b1b;
+    font-size: 24px;
+    padding: 16px 24px;
+    border-bottom: 1px solid #eaeaea;
+    text-align: left;
+    font-family: ProximaNova-Bold
+}
+.menu-wrap a {
+    display: block;
+    color: #1b1b1b;
+    font-size: 18px;
+    padding: 16px 24px;
+    border-bottom: 1px solid #eaeaea;
+    text-align: left;
+    font-family: ProximaNova-Regular
+}
+.menu-wrap{
+	background-color: #f6f6f6;
+}
+.b-contacts-wrap{
+	text-align: left;
+	border: none;
+	padding: 0px;
+}	
+	.b-contacts{
+		margin-right: 0px;
+		display: block;
+		margin-bottom: 17px;
+	}
+.b-footer-copy{
+	text-align: justify;
+}
+	.b-footer-copy p:first-child{
+		width: 100%;
+		text-align: left;
+	}
+.b-main-footer .b-block{
+	padding-bottom: 8px;
+}
+#menu{
+	opacity: 0;
+}
+.b-logo{
+	display: none;
+}
+.b-logo-text{
+	display: none;
+}
+.b-small-logo{
+	display: block;
+}
+.b-logos a img {
+	margin-bottom: 32px;
+}
+.b-partner-logo{
+		    display: inline-block;
+			/*max-width: 180px;*/
+			-webkit-filter: grayscale(0%);
+		    -moz-filter: grayscale(0%);
+		    -ms-filter: grayscale(0%);
+		    -o-filter: grayscale(0%);
+		    filter: grayscale(0%);
+		    filter: gray;
+		    opacity: 1;
+			margin: 0px 20px;
+			padding: 0px 10px;
+		}
 
 
 
