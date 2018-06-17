@@ -326,6 +326,8 @@ body {
 			display: block;
 			text-align: left;
 			color: #434343;
+			position: absolute;
+			bottom: 49px;
 
 		}
 			.bottom-links ul li{
@@ -711,6 +713,9 @@ body {
 .b-partners .slick-list{
 	width: 100%;
 	left: 0px;
+}
+#menu{
+	opacity: 0;
 }
 .justify:after{
 	content: '';

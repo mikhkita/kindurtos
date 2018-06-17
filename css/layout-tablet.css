@@ -1,7 +1,4 @@
 @charset "utf-8";
-.b-main-header .b-block{
-	height: 100vh;
-}
 .b-h-menu{
 	display: none;
 }
@@ -25,7 +22,7 @@
 	line-height: 52px;
 }
 .bottom-links{
-	display: none;
+	display: none !important;
 }
 .toggle-button {
 	display: inline-block !important;
