@@ -1,7 +1,4 @@
 @charset "utf-8";
-.b-main-header .b-block{
-	height: 100vh;
-}
 .b-main-header-h1{
 	font-size: 28px;
 	line-height: 38px;
@@ -19,6 +16,7 @@
 }
 .b-main-about .b-block{
 	padding-bottom: 30px;
+	padding-top: 50px;
 }
 .b-right p{
 	text-decoration: none;
@@ -68,7 +66,8 @@
 }
 
 .b-title{
-	font-size: 28px;
+	font-size: 24px;
+	line-height: 30px;
 }
 .b-advantage{
 	margin-bottom: 0px;
@@ -79,6 +78,23 @@
 }
 .b-main-reviews .b-title {
 	padding-bottom: 30px;
+}
+.b-main-reviews .b-block a{
+	margin-top: 10px;
+}
+.b-footer-wrap{
+	margin-bottom: 20px;
+}
+.b-frame-1{
+	padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 25px;
+}
+.secret{
+	margin-top: 28px;
+}
+.b-right .slick-arrow{
+	top: 95px;
 }
 @media screen and (max-width: 728px){
 	.b-shortcuts{

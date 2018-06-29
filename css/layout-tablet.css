@@ -26,16 +26,16 @@
 }
 .toggle-button {
 	display: inline-block !important;
-	background-image: url(../i/menu.svg);
-	background-color: rgba(0, 0, 0, 0);
-	height: 40px;
-	width: 40px;
-	float: right;
+    background-image: url(../i/menu.svg);
+    background-color: rgba(0, 0, 0, 0);
+    height: 35px;
+    width: 30px;
+    float: right;
     border: none;
     margin-top: 15px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-size: contain;
+
 }
 .menu-header{
 	display: block;
@@ -77,9 +77,6 @@
 	}
 .b-main-footer .b-block{
 	padding-bottom: 8px;
-}
-#menu{
-	opacity: 0;
 }
 .b-logo{
 	display: none;

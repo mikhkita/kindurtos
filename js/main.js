@@ -18,7 +18,7 @@ isMobile = false;
             isDesktop = true;
             isTablet = false;
             isMobile = false;
-        }else if( myWidth > 767 && myWidth < 1180 ){
+        }else if( myWidth > 767 ){
             isDesktop = false;
             isTablet = true;
             isMobile = false;
@@ -27,17 +27,20 @@ isMobile = false;
             isTablet = false;
             isMobile = true;
         }
+        if (isMobile && !$( "#advantages" ).hasClass( "slick-initialized" )) {
+        bRightSlick();
+    }
     }
     $(window).resize(resize);
     resize();
-    $(window).resize(function() {
-        if (!isMobile) {
-            $('.b-right').slick('unslick');
-        }
-        else{
-            bRightSlick();
-        }
-    });
+    // $(window).resize(function() {
+    //     if (!isMobile) {
+    //         $('.b-right').slick('unslick');
+    //     }
+    //     else{
+    //         bRightSlick();
+    //     }
+    // });
     partnersSlick();
     $.fn.placeholder = function() {
         if(typeof document.createElement("input").placeholder == 'undefined') {
@@ -96,12 +99,30 @@ $('#menu').css('opacity','1');
     });
     function bRightSlick() {
         $( " .b-right " ).slick({
-            infinite: true,
-            speed: 500,
-            slidesToScroll: 1,
-            touchThreshold: 100,
-            arrows: true,
-            dots: true
+                infinite: true,
+                speed: 500,
+                slidesToScroll: 1,
+                touchThreshold: 100,
+                arrows: true,
+                dots: true,
+                responsive: [
+                    {
+                        breakpoint: 10000,
+                        settings: "unslick"
+                    },
+                    {
+                        breakpoint: 768,
+                        settings:{
+                            infinite: true,
+                            speed: 500,
+                            slidesToScroll: 1,
+                            touchThreshold: 100,
+                            arrows: true,
+                            dots: true 
+                        }
+                    }
+                ]
+
         });  
     }
     function partnersSlick() {
@@ -138,9 +159,6 @@ $('#menu').css('opacity','1');
       ]
         });
 
-    }
-    if (isMobile) {
-        bRightSlick();
     }
 	// var myPlace = new google.maps.LatLng(55.754407, 37.625151);
  //    var myOptions = {

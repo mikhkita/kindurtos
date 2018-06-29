@@ -62,15 +62,29 @@
 
 .slick-prev
 {
+    width: 40px;
+    height: 40px;
+    background: #A92423;
+    border-radius: 40px;
     left: -27px;
-    background-image: url(../i/previous.svg);
     z-index: 10;
+    box-shadow: 0 5px 12px 0 rgba(92,26,26,0.30);
+    background-image: url(../i/previous.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
 .slick-next
 {
+    width: 40px;
+    height: 40px;
+    background: #A92423;
+    border-radius: 40px;
     right: -27px;
+    box-shadow: 0 5px 12px 0 rgba(92,26,26,0.30);
     background-image: url(../i/next.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
 /* Dots */
